@@ -13,4 +13,7 @@
 * [Websites dedicated to movies are an historical archive](https://www.spacejam.com/1996/jam.html). The _Space Jam_ website still works.
 
 ## Citations
-* Your citations go here
+* ["The Call" Movie and Description](https://www.netflix.com/title/81342505)
+* ["The Call" Trailer](https://www.youtube.com/watch?v=hxkKeniT-0Q)
+* [Plyr](https://plyr.io/)
+
