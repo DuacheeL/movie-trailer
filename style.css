@@ -1,38 +1,42 @@
-body {
-    background: gray;
-}
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Animate.css */
+@import 'animate.css';
+
 
 /* CSS Variables */
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
-    /* audio controls background */
-    --plyr-audio-controls-background: black;
-    /* audio controls color */
-    --plyr-audio-control-color: white;
+    --plyr-color-main: #C8190C;
+    --plyr-video-control-color: white;
+    --plyr-video-control-color-hover: white;
+    --plyr-font-family: "Lora", serif;
+    --plyr-font-weight-bold: 800;
 
-    --plyr-audio-control-color-hover:  black;
-
-    --plyr-audio-progress-buffered-background:  black;
-
-    --plyr-audio-range-track-background: white;
-    
-    --plyr-font-family: sans-serif;
-    --plyr-font-size-time: 16px;
-
-    --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
-
-    --plyr-control-icon-size: 16px;
 }
 
+body {
+    background: black;
+    background-image: url(assets/background-image.png);
+    background-size: cover;
+    backdrop-filter: brightness(60%);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+
+}
 /* Layout */
 main {
     /* Fixed width center align */
     max-width: 60em;
     margin-inline: auto;
+    
 
-    background: lightgray;
+    /* background: red; */
 }
 
 main img {
@@ -41,21 +45,70 @@ main img {
     display: block;
 }
 
+h1 {
+    font-family: "Protest Revolution", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 10em;
+    color: #C8190C;
+    text-transform: uppercase;
+    text-shadow: 1px 5px 2px black;
+    margin: 10px;
+
+    animation-name: fadeIn;
+    animation-duration: 4s;
+      animation-fill-mode: both;
+}
 article {
     /* flow content horizontally */
     display: flex;
     gap: 1em;
     justify-content: center;
+    font-family: "Lora", serif;
+    padding: 5px;
+    color: white;
+    font-size: 1.5em;
+    
 }
 
 footer {
     text-align: center;
 }
 
+footer a {
+    color: #F3E3AB;
+    text-decoration: none;
+    
+}
+
+.animate__animated.animate__flash {
+    --animate-delay: 1s;
+    --animate-duration: 5s;
+}
+
+
 /* Media Queries */
-@media (max-width: 600px) {
+@media (max-width: 668px) {
     main article {
         flex-direction: column;
         align-items: center;
     }
+
+    main h1 {
+        font-size: 6em;
+    }
+    article section p {
+        font-size: .60em;
+    }
+}
+
+
+/* Keyframe Animation */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

@@ -15,5 +15,8 @@
 ## Citations
 * ["The Call" Movie and Description](https://www.netflix.com/title/81342505)
 * ["The Call" Trailer](https://www.youtube.com/watch?v=hxkKeniT-0Q)
+* [Background](https://www.imdb.com/title/tt10530176/mediaviewer/rm704826369?ref_=ttmi_mi_all_sf_22)
 * [Plyr](https://plyr.io/)
-
+* [Google Fonts - Protest Revolution](https://fonts.google.com/specimen/Protest+Revolution?query=protest+revolution)
+* [Google Fonts - Lora ](https://fonts.google.com/specimen/Lora)
+* [Animate.style](https://animate.style/)
