@@ -20,3 +20,4 @@
 * [Google Fonts - Protest Revolution](https://fonts.google.com/specimen/Protest+Revolution?query=protest+revolution)
 * [Google Fonts - Lora ](https://fonts.google.com/specimen/Lora)
 * [Animate.style](https://animate.style/)
+* [Favicon](https://www.pngkey.com/download/u2q8a9r5e6r5o0y3_phone-icon-in-a-circle-phone-icon-png/)
